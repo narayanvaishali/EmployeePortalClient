@@ -1,3 +1,15 @@
+Notes
+
+1. This is designed to test with asp.net core (1.1) web api. Please see the EmployeePortalWebAPI Project
+2. Please amend the url during testing locally in below files
+
+    A) src\store\actions\repositoryActions.js
+        Code ---> url = "http://localhost:52429/api/Profile"
+
+    B) src\axios\axios.js
+       Code ----> baseURL: 'http://localhost:52429/api/',
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
